@@ -78,6 +78,8 @@ public record Dice
     // ─────────────────────────────────────────────────────────────────────────
     //  The factory method -- the only way in
     // ─────────────────────────────────────────────────────────────────────────
+    public static readonly int[] _validSides =
+        [2, 4, 6, 8, 10, 12, 20, 100];
 
     /// <summary>
     /// Builds a set of dice, or refuses to.  The only door;  every set of dice
@@ -95,17 +97,29 @@ public record Dice
             throw new ArgumentOutOfRangeException(
                 nameof(count), count, $"A roll uses between 1 and {MaxCount} dice.");
 
-        // TODO (Step 2): `sides` is wide open.  One side makes a token, zero
-        //                sides makes a paradox, and -4 sides makes
-        //                Random.Next() throw from deep inside the standard
-        //                library, which is a genuinely miserable way to find
-        //                out.  Use MinSides and MaxSides.
+        if (!_validSides.Contains(sides))
+        {
+            throw new ArgumentOutOfRangeException(
+                nameof(sides), sides, $"You can't make {sides} sided dice :O");
+        }
 
-        // TODO (Step 3): `modifier` is wide open too.  Use MaxModifier.
-        //                Decide for yourself whether a negative modifier is
-        //                legal -- it is, but how negative?
+        if (Math.Abs(modifier) > 100)
+        {
+            throw new ArgumentOutOfRangeException(
+                nameof(modifier), modifier, $"{modifier} must be less than 100 and greater than -100.");
+        }
 
-        return new Dice(count, sides, modifier);
+    // TODO (Step 2): `sides` is wide open.  One side makes a token, zero
+    //                sides makes a paradox, and -4 sides makes
+    //                Random.Next() throw from deep inside the standard
+    //                library, which is a genuinely miserable way to find
+    //                out.  Use MinSides and MaxSides.
+
+    // TODO (Step 3): `modifier` is wide open too.  Use MaxModifier.
+    //                Decide for yourself whether a negative modifier is
+    //                legal -- it is, but how negative?
+
+    return new Dice(count, sides, modifier);
     }
 
     // ─────────────────────────────────────────────────────────────────────────

@@ -1,0 +1,15 @@
+/Users/haileyduan/Robotics/Lesson02_ValidationAndFactories/bin/Debug/net10.0/Lesson02_ValidationAndFactories
+/Users/haileyduan/Robotics/Lesson02_ValidationAndFactories/bin/Debug/net10.0/Lesson02_ValidationAndFactories.deps.json
+/Users/haileyduan/Robotics/Lesson02_ValidationAndFactories/bin/Debug/net10.0/Lesson02_ValidationAndFactories.runtimeconfig.json
+/Users/haileyduan/Robotics/Lesson02_ValidationAndFactories/bin/Debug/net10.0/Lesson02_ValidationAndFactories.dll
+/Users/haileyduan/Robotics/Lesson02_ValidationAndFactories/bin/Debug/net10.0/Lesson02_ValidationAndFactories.pdb
+/Users/haileyduan/Robotics/Lesson02_ValidationAndFactories/obj/Debug/net10.0/Lesson02_ValidationAndFactories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/haileyduan/Robotics/Lesson02_ValidationAndFactories/obj/Debug/net10.0/Lesson02_ValidationAndFactories.AssemblyInfoInputs.cache
+/Users/haileyduan/Robotics/Lesson02_ValidationAndFactories/obj/Debug/net10.0/Lesson02_ValidationAndFactories.AssemblyInfo.cs
+/Users/haileyduan/Robotics/Lesson02_ValidationAndFactories/obj/Debug/net10.0/Lesson02_ValidationAndFactories.csproj.CoreCompileInputs.cache
+/Users/haileyduan/Robotics/Lesson02_ValidationAndFactories/obj/Debug/net10.0/Lesson02_ValidationAndFactories.sourcelink.json
+/Users/haileyduan/Robotics/Lesson02_ValidationAndFactories/obj/Debug/net10.0/Lesson02_ValidationAndFactories.dll
+/Users/haileyduan/Robotics/Lesson02_ValidationAndFactories/obj/Debug/net10.0/refint/Lesson02_ValidationAndFactories.dll
+/Users/haileyduan/Robotics/Lesson02_ValidationAndFactories/obj/Debug/net10.0/Lesson02_ValidationAndFactories.pdb
+/Users/haileyduan/Robotics/Lesson02_ValidationAndFactories/obj/Debug/net10.0/Lesson02_ValidationAndFactories.genruntimeconfig.cache
+/Users/haileyduan/Robotics/Lesson02_ValidationAndFactories/obj/Debug/net10.0/ref/Lesson02_ValidationAndFactories.dll
