@@ -151,3 +151,13 @@ static void Section(string title)
     Console.WriteLine();
     Console.WriteLine($"── {title} {new string('─', Math.Max(0, 68 - title.Length))}");
 }
+
+string[] inputs = ["2d6", "d20", "3d8+2", "1d4-1", "4d6", "0d6", "twenty"];
+
+foreach (string input in inputs)
+{
+    if (Dice.TryParse(input, out Dice? dice))
+        Console.WriteLine($"{input} => {dice}");
+    else
+        Console.WriteLine($"{input} => invalid");
+}
