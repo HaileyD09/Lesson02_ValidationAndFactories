@@ -121,7 +121,10 @@ public record Dice
 
     return new Dice(count, sides, modifier);
     }
-
+    //hw 9/18
+    public static Dice Damage() => Of(1, 6, 0);
+    public static Dice CheckYourLuck() => Of(1, 20, 0);
+    public static Dice Movement() => Of(2, 8, 1);
     // ─────────────────────────────────────────────────────────────────────────
     //  What a set of dice DOES
     // ─────────────────────────────────────────────────────────────────────────
